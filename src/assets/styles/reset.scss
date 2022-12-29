@@ -1,0 +1,101 @@
+/**
+  **此文件为公共样式文件
+  **可以将主题颜色通过scss变量抛出
+  **后期公共样式在此文件维护
+*/
+
+/* 去除盒子初始padding，margin  */
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* 标题元素样式清除 */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* 清除列表样式  */
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+/* 酌情修改 */
+body {
+  background-color: #fff;
+  color: #666;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+html,
+body,
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* 清除超链接样式 */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.router-link-active {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* table操作按钮 */
+.operation {
+  color: #0177d5;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.operation-not {
+  color: #ccc;
+  cursor: no-drop;
+  padding: 0 5px;
+  pointer-events: none;
+}
+
+.white20 {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.mrg5 {
+  margin-right: 5px;
+}
+
+.mrg20 {
+  margin-top: 20px;
+}
